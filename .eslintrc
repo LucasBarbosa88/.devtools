@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "airbnb",
+    "plugin:vue/base"
+  ],
+  "rules": {
+    "func-names": ["error", "never"]
+    "eslint no-param-reassign": ["error", { "props": false }]
+  }
+}
