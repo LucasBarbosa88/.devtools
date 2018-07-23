@@ -48,7 +48,6 @@ Plug 'Yggdroot/indentLine'
 Plug 'avelino/vim-bootstrap-updater'
 Plug 'sheerun/vim-polyglot'
 Plug 'tmhedberg/matchit'
-Plug 'posva/vim-vue'
 
 if isdirectory('/usr/local/opt/fzf')
   Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
@@ -94,7 +93,7 @@ Plug 'mattn/emmet-vim'
 " javascript
 "" Javascript Bundle
 Plug 'jelera/vim-javascript-syntax'
-
+Plug 'posva/vim-vue'
 
 " php
 "" PHP Bundle
@@ -533,3 +532,5 @@ else
   let g:airline_symbols.readonly = ''
   let g:airline_symbols.linenr = ''
 endif
+
+autocmd FileType vue syntax sync fromstart
