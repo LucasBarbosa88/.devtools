@@ -77,7 +77,6 @@ Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 
 "" Color
-Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'liuchengxu/space-vim-dark'
 "*****************************************************************************
 "" Custom bundles
